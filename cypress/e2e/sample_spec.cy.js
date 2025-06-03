@@ -1,6 +1,6 @@
 describe('Sample Test', () => {
   it('Visits Example.com', () => {
-    cy.visit('https://example.com');
-    cy.title().should('include', 'Example Domain');
+    cy.visit('https://orufy.com/about-us');
+    cy.title().should('include', 'Orufy')
   });
 });
